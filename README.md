@@ -30,9 +30,8 @@ $ python goWideDeepLearning.py --method multiclass --kernel 5
 
 ## Usage
 
-To perform a cell-type classification with an external dataset (in cells x genes matrix form), you have to align dataset cell type names in "cellsFiltering.py" file
-with cell types within "cellmatch.csv" file and put your file inside "scripts/data" directory and change tissue filtering in "relevantGenesExtraction.py" ("tissueType"
-or "cancerType"). You have also to unzip "util.zip". You can then run all the scripts in the following order:
+To perform a cell-type classification with an external dataset (in cells x genes matrix form), you have to align dataset cell type names in "cellsFiltering.py" file with cell types within "cellmatch.csv" file and put your file inside the "scripts/data" directory and change tissue filtering in "relevantGenesExtraction.py" ("tissueType" or "cancerType"). 
+Then, run all the scripts in the following order:
 
 ```
 $ python cellsFiltering.py
