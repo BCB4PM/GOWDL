@@ -20,9 +20,8 @@ unzip ".zip" files in the same directory where they are.
 
 ## Example dataset
 
-We provide a dataset to perform a cell type classification with our model, but you can perform classifications with other datasets, following instruction within scripts
-inside the "scripts" directory. To run script with our prepared dataset you must unzip "data.zip" inside "scripts/data" directory and go to the "scripts" directory. Then
-run the following line from command line.
+We provide a dataset to perform a cell-type classification with our model. However, it is possible to perform classifications with other datasets, following instructions within scripts inside the "scripts" directory. 
+To run the script with our prepared dataset, please download and unzip the "data.zip" file from the external link contained in the "scripts/data" directory and go to the "scripts" directory. Then run the following line from the command line.
 
 ```
 $ python goWideDeepLearning.py --method multiclass --kernel 5
