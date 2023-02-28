@@ -16,7 +16,7 @@ $ conda activate <env>
 
 Alternatively, single python packages can be installed when needed to run source code. 
 
-Once the environment is ready to run GOWDL, please download and unzip all the files stored in the external link "util_link.txt" in the same directory.
+Once the environment is ready to run GOWDL, please download and unzip all the files stored in the external link "KDC_util_link.txt" in the same directory.
 
 
 ## Example dataset
