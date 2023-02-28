@@ -1,15 +1,14 @@
 # GOWDL: Gene ontology-driven wide and deep learning architecture
 
-This repository provides the source code for a gene ontology-driven wide and deep learning architecture for cell typing of single-cell RNA-seq data.
+This repository provides the source code for GOWDL: a gene ontology-driven wide and deep learning architecture for cell typing of single-cell RNA-seq data.
 
-To write and run our Python scripts we used Python version 3.9.7. We provide a read-to-use conda environment configuration file to install all required python
-packages. To import the conda environment into your system go to the "conda_env" directory and type the following (after installing Anaconda):
+To write and run our Python scripts, we used Python version 3.9.7. We provide a ready-to-use conda environment configuration file to install all required python packages. To import the conda environment, go to the "conda_env" directory and type the following (after installing Anaconda):
 
 ```
 $ conda create --name <env> --file env.txt
 ```
 
-where \<env\> is name of your environment to be created from file. You can now activate your \<env\> imported environment simply typing:
+where \<env\> is name of your environment to be created from file. Then, it is possible to activate your activate your \<env\> imported environment simply typing:
 
 ```
 $ conda activate <env>
