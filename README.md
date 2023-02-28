@@ -14,8 +14,8 @@ where \<env\> is name of your environment to be created from file. Then, it is p
 $ conda activate <env>
 ```
 
-Alternatively you can install single python packages when needed to run source code. Once the environment is configured with all the needed packages, you have to 
-unzip ".zip" files in the same directory where they are.
+Alternatively, single python packages can be installed when needed to run source code. Once the environment is configured with all the needed packages, please unzip ".zip" files in the same directory.
+
 
 ## Example dataset
 
