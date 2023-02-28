@@ -14,7 +14,9 @@ where \<env\> is name of your environment to be created from file. Then, it is p
 $ conda activate <env>
 ```
 
-Alternatively, single python packages can be installed when needed to run source code. Once the environment is configured with all the needed packages, please unzip ".zip" files in the same directory.
+Alternatively, single python packages can be installed when needed to run source code. 
+
+Once the environment is ready to run GOWDL, please download and unzip all the files stored in the external link "util_link.txt" in the same directory.
 
 
 ## Example dataset
