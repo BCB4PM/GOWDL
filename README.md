@@ -25,7 +25,7 @@ We provide a dataset to perform a cell-type classification with our model. Howev
 To run the script with our prepared dataset, please download and unzip the "data.zip" file from the external link contained in the "scripts/data" directory and go to the "scripts" directory. Then run the following line from the command line.
 
 ```
-$ python goWideDeepLearning.py --method multiclass --kernel 5
+$ python goWideDeepLearning.py --kernel 5
 ```
 
 ## Usage
