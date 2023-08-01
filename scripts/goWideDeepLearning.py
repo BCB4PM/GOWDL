@@ -371,7 +371,7 @@ def wide_deep(df_train, df_test, wide_cols, x_cols, deep_cols, target, model_typ
 if __name__ == '__main__':
 
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", type = str, default = "logistic", help = "fitting method")
+    ap.add_argument("--method", type = str, default = "multiclass", help = "fitting method")
     ap.add_argument("--model_type", type = str, default = "wide_deep", help = "wide, deep or both")
     ap.add_argument("--train_data", type = str, default = "train.csv")
     ap.add_argument("--test_data", type = str, default = "test.csv")
