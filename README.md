@@ -18,6 +18,8 @@ Alternatively, single python packages can be installed when needed to run source
 
 Once the environment is ready to run GOWDL, please download and unzip all the files stored in the external link "KDC_util_link.txt" in the same directory.
 
+The datasets folder contains the training and testing datasets we used for experiments.
+
 
 ## Example dataset
 
